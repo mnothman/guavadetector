@@ -3,18 +3,18 @@ Citation of dataset below <br/> <br/>
 
 Requires Python (recommended to use virtual environment e.g., venv / virtualenv) <br/> <br/>
 
-# 1. Clone Repository <br/> <br/>
+### 1. Clone Repository <br/> <br/>
 
 git clone https://github.com/mnothman/guavadetector.git <br/>
 
 
-# 2. Setup Environment (optional) <br/>
+### 2. Setup Environment (optional) <br/>
 python -m venv venv <br/>
 source venv/bin/activate  # On Windows: venv\Scripts\activate <br/><br/>
 
 pip install -r requirements.txt <br/><br/>
 
-# 3. Download Dataset <br/><br/>
+### 3. Download Dataset <br/><br/>
 
 Download dataset from: https://www.kaggle.com/datasets/asadullahgalib/guava-disease-dataset <br/><br/>
 
@@ -22,7 +22,7 @@ Extract to: /data/ <br/>
 Full default path should be: /data/archive/GuavaDiseaseDataset <br/>
 Can modify base directory of data in train.py: "BASE_DIR = /data/archive/GuavaDiseaseDataset" <br/> <br/>
 
-# 4. Train Model <br/>
+### 4. Train Model <br/>
 cd model <br/>
 python train.py <br/><br/>
 
@@ -31,7 +31,7 @@ wait for guava_disease_detector.keras to finish training <br/><br/>
 model/ <br/>
 └── guava_disease_detector.keras <br/> <br/>
 
-# 5. Run the Flask App <br/><br/>
+### 5. Run the Flask App <br/><br/>
 
 start flask app: <br/>
 cd app <br/>
