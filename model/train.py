@@ -3,7 +3,7 @@ from tensorflow import keras
 from preprocess import load_datasets, augment_data
 
 # Load datasets
-BASE_DIR = "/data/archive/GuavaDiseaseDataset"
+BASE_DIR = "../data/archive/GuavaDiseaseDataset"
 train_ds, val_ds, test_ds = load_datasets(BASE_DIR)
 
 # Data augmentation
