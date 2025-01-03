@@ -1,6 +1,14 @@
 Model that detects health of a guava based on user uploaded image <br/>
 Citation of dataset below <br/> <br/>
 
+![HomepageGuava](https://github.com/user-attachments/assets/357175e6-9ed0-454a-b9e3-b9b0e2868e2c)
+
+ <br/> <br/>
+
+![diseasedGuava](https://github.com/user-attachments/assets/46a0a6a9-c7d4-42e6-8ee0-1b3a25d0b8c7)
+
+ <br/> <br/>
+
 Requires Python (recommended to use virtual environment e.g., venv / virtualenv) <br/> <br/>
 
 ### 1. Clone Repository <br/> <br/>
