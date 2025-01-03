@@ -1,0 +1,13 @@
+model/guava_disease_detector.keras
+app/venv
+app/venv/bin
+model/__pycache__
+model/venv
+venv
+dataset_summary.csv
+.vscode
+model/train2.py
+model/train3.py
+
+# Dataset used for training
+data/archive
